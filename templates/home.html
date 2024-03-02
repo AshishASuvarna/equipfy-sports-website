@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EQUIPFY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  </head>
+  <body>
+    {% include 'nav.html' %}
+    <!-- Banner section -->
+    <div class= "container">
+    <div class="px-4 pt-5 my-5 text-center pt-0 mt-0">
+      <h1 class="display-4 fw-bold text-body-emphasis">EQUIPFY</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Equipfy - Where Sporting Dreams Take Flight!</p>
+      </div>
+      <div class="overflow-hidden" style="max-height: 100vh;">
+        <div class="container px-5">
+          <img src="https://8269d3e1-90f7-4b04-9ffc-21a9fee2e42a-00-19qlox094tft2.janeway.repl.co/static/banner.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="800" height="600" loading="lazy">
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- About section -->
+    <div class= "container">
+    <div class="px-4 py-5 my-5 text-center pb-3 mb-2">
+      <h1 class="display-5 fw-bold text-body-emphasis">Welcome to Equipfy!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Your go-to for top-tier sports gear! Whether you're a seasoned pro or just starting, discover our meticulously curated selection, from professional-grade essentials to beginner-friendly gear. Count on Equipfy for unmatched quality, and personalized support. Gear up for excellence with Equipfy!</p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Products section -->
+    <div class="container">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 pt-0 mt-0 pb-5">
+      <div class="col">
+        <a href="{{ url_for('clothing') }}" style="text-decoration: none;">
+        <div class="card card-cover h-100 overflow-hidden text-center text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://8269d3e1-90f7-4b04-9ffc-21a9fee2e42a-00-19qlox094tft2.janeway.repl.co/static/clothing.jpg'); background-size: cover; style="text-decoration: none;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clothing</h3>
+            <ul style="list-style-type: none;">
+              <li>  .</li>
+              <li>  .</li>
+            </ul>
+          </div>
+        </div></a>
+      </div>
+
+      <div class="col">
+        <a href="" style="text-decoration: none;">
+        <div class="card card-cover h-100 overflow-hidden text-center text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://8269d3e1-90f7-4b04-9ffc-21a9fee2e42a-00-19qlox094tft2.janeway.repl.co/static/shoes.jpg');background-size: cover;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Shoes</h3>
+            
+          </div>
+        </div></a>
+      </div>
+
+      <div class="col">
+        <a href="" style= "text-decoration: none;">
+        <div class="card card-cover h-100 overflow-hidden text-center text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://8269d3e1-90f7-4b04-9ffc-21a9fee2e42a-00-19qlox094tft2.janeway.repl.co/static/gear.jpg');background-size: cover; ">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Gears</h3>
+            
+          </div>
+        </div></a>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Contact Us -->
+      <div class = "container">
+        <div class="d-flex gap-2 justify-content-center py-3">
+        <a href="mailto:equipfycustomercare@equipfy.com" class="btn btn-outline-dark d-inline-flex align-items-center" type="button">
+          Contact Us
+        </a>
+        </div>
+        <div class="copyright">
+          <p class="text-center mt-0 pt-0 text-body-secondary">© 2024 Equipfy, Inc</p>
+        </div>
+      </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
