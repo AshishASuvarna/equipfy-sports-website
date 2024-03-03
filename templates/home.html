@@ -9,6 +9,7 @@
   </head>
   <body>
     {% include 'nav.html' %}
+    
     <!-- Banner section -->
     <div class= "container">
     <div class="px-4 pt-5 my-5 text-center pt-0 mt-0">
@@ -43,7 +44,7 @@
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clothing</h3>
             <ul style="list-style-type: none;">
-              <li>  .</li>
+              <li style="color:black;">  .</li>
               <li>  .</li>
             </ul>
           </div>
@@ -74,16 +75,15 @@
     
     <!-- Contact Us -->
       <div class = "container">
-        <div class="d-flex gap-2 justify-content-center py-3">
+        <div class="d-flex gap-2 justify-content-center pt-3">
         <a href="mailto:equipfycustomercare@equipfy.com" class="btn btn-outline-dark d-inline-flex align-items-center" type="button">
           Contact Us
         </a>
         </div>
-        <div class="copyright">
-          <p class="text-center mt-0 pt-0 text-body-secondary">© 2024 Equipfy, Inc</p>
-        </div>
       </div>
-
+      
+    <!-- footer section  -->
+    {% include 'footer.html' %}
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
